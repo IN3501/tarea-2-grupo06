@@ -11,12 +11,12 @@ def iniciarsesion(request):
 	return render(request, 'iniciarsesion.html')
 def catalogo(request):
 	return render(request, 'catalogo.html')
-
-def recuperar(request):
+'''def recuperar(request):
 	texto=request.POST["inputText"]
 	texto_largo=request.POST["textA"]
 	diccionario={}
 	diccionario["comentario"]=texto
 	diccionario["comentario2"]=texto_largo
-	return render(request, "mostrar_resultado.html", diccionario)
-
+	return render(request, "mostrar_resultado.html", diccionario)'''
+def recuperar(request):
+	return render(request, "mostrar_resultado.html")
