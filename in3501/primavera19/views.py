@@ -22,3 +22,5 @@ def recuperar(request):
 	return render(request, "mostrar_resultado.html")
 def carro(request):
 	return render(request, "carro.html")
+def configuracion(request):
+	return render(request, "configuracion.html")
