@@ -20,3 +20,5 @@ def catalogo(request):
 	return render(request, "mostrar_resultado.html", diccionario)'''
 def recuperar(request):
 	return render(request, "mostrar_resultado.html")
+def carro(request):
+	return render(request, "carro.html")

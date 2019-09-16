@@ -8,4 +8,5 @@ urlpatterns = [
 	path("iniciarsesion/", iniciarsesion, name='iniciarsesion'),
 	path("contacto/", contacto, name='contacto'),
 	path("catalogo/", catalogo, name='catalogo'),
+	path("carro/", carro, name='carro'),
 ]
